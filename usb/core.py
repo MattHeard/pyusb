@@ -714,7 +714,7 @@ class Device(_objfinalizer.AutoFinalizedObject):
     value for most devices) and then writes some data to the endpoint 0x01.
 
     Timeout values for the write, read and ctrl_transfer methods are specified
-    in miliseconds. If the parameter is omitted, Device.default_timeout value
+    in milliseconds. If the parameter is omitted, Device.default_timeout value
     will be used instead. This property can be set by the user at anytime.
     """
 
